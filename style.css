@@ -1,0 +1,96 @@
+body{
+ background: conic-gradient(from 193.58deg at 56.75% 72.07%, #8CBAFF -146.25deg, #392F7B 20.63deg, #8CBAFF 213.75deg, #392F7B 380.62deg);
+
+
+}
+.container {
+  background: #ECF6FF;
+  color: #2D3133;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabeçalho{
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button{
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0E1D2F;
+ }
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+ 
+}
+
+.projetos-titulo{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.projetos-item a{
+  font-weight: 400;
+  font-size: 24px;
+  color: #2D3133;
+  text-decoration: none
+}
+
+.frame{
+font-family: Roboto;
+}
+
+.dark .container{
+  background: linear-gradient(180deg, #3D4750 0%, rgba(65, 77, 88, 0.79) 65.12%, rgba(69, 84, 97, 0) 100%);
+
+  color: #F6F6F6;
+}
+
+.dark .tema button {
+  color: #FFFFFF;
+  background: #575E64;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #F7F7F7;
+}
